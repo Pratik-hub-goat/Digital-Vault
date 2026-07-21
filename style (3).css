@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: #10131c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #f1f5f9;
+}
+
+/* Highly Interactive, Single-Column Scrolling Layout */
+.portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 95%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    pointer-events: none; 
+}
+
+.image-shield {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    background: transparent;
+}
+
+.paywall-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 100%;
+    max-width: 460px;
+    background: white;
+    color: #222;
+    padding: 35px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #444;
+    font-size: 14px;
+}
+.promo-card{
+
+max-width:700px;
+
+margin:50px auto;
+
+padding:35px;
+
+background:white;
+
+border-radius:20px;
+
+color:#222;
+
+box-shadow:0 15px 35px rgba(0,0,0,.45);
+
+text-align:center;
+
+}
+
+.promo-card h2{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+color:#0f172a;
+
+}
+
+.promo-card p{
+
+line-height:1.7;
+
+font-size:15px;
+
+margin-bottom:18px;
+
+}
+
+.service-list{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:15px;
+
+margin:25px 0;
+
+}
+
+.service-list div{
+
+background:#f3f4f6;
+
+padding:14px;
+
+border-radius:12px;
+
+font-weight:bold;
+
+}
+
+.promo-note{
+
+font-size:14px;
+
+color:#555;
+
+}
